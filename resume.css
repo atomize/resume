@@ -387,7 +387,9 @@ hr {
 .edu-wrapper>blockquote>ul {
     margin-top: 0px;
 }
-
+.edu-header {
+    display:inline;
+}
 @media screen and (max-width: 1080px) {
     h4 {
 
@@ -474,6 +476,7 @@ hr {
     margin-inline-start: 10px;
     padding-top: 0px !important;
     position: absolute !important;
+    width:calc(1.5em + .5vw);
 }
 
 .ie {
