@@ -21,6 +21,7 @@ h5 {
 
 html {
     margin: 0px;
+    font-size: calc(0.3em + 1vw);
 }
 
 body {
@@ -176,7 +177,7 @@ hr {
 
 .name {
     grid-row: 1;
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     font-size: 40px;
     width: 100%;
     align-content: center;
