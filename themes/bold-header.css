@@ -1,0 +1,306 @@
+/* Bold Header Theme - Large name/title, compact content below */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+.resume.bold-header {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #1a1a1a;
+}
+
+.resume.bold-header .resume-header {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    color: white;
+    padding: 60px 60px 50px;
+    text-align: center;
+}
+
+.resume.bold-header h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.resume.bold-header .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    opacity: 0.95;
+}
+
+.resume.bold-header .resume-header .contact {
+    font-size: 14px;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.resume.bold-header .summary {
+    padding: 40px 60px;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.resume.bold-header .summary p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #334155;
+    text-align: center;
+}
+
+.resume.bold-header .two-col-layout {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 0;
+}
+
+.resume.bold-header .col-main {
+    padding: 40px 40px 40px 60px;
+    border-right: 1px solid #e2e8f0;
+}
+
+.resume.bold-header .col-side {
+    padding: 40px 60px 40px 40px;
+    background: #f8fafc;
+}
+
+.resume.bold-header h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e40af;
+    margin: 0 0 24px 0;
+}
+
+.resume.bold-header .job {
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.resume.bold-header .job:last-child {
+    border-bottom: none;
+}
+
+.resume.bold-header .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    gap: 20px;
+}
+
+.resume.bold-header h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #111827;
+}
+
+.resume.bold-header .company {
+    font-size: 14px;
+    color: #2563eb;
+    font-weight: 500;
+}
+
+.resume.bold-header .dates {
+    font-size: 12px;
+    color: #6b7280;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.resume.bold-header .job-summary {
+    margin: 8px 0;
+    font-style: italic;
+    color: #4b5563;
+}
+
+.resume.bold-header .highlights {
+    margin: 12px 0 0 0;
+    padding-left: 20px;
+}
+
+.resume.bold-header .highlights li {
+    margin-bottom: 8px;
+    color: #374151;
+}
+
+.resume.bold-header .col-side section {
+    margin-bottom: 32px;
+}
+
+.resume.bold-header .col-side h2 {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.resume.bold-header .skill-group {
+    margin-bottom: 20px;
+}
+
+.resume.bold-header .skill-group h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2563eb;
+    margin: 0 0 6px 0;
+}
+
+.resume.bold-header .skill-group p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #4b5563;
+}
+
+.resume.bold-header .school {
+    margin-bottom: 20px;
+}
+
+.resume.bold-header .school h3 {
+    font-size: 14px;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.resume.bold-header .school .dates {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.resume.bold-header .school ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12px;
+}
+
+.resume.bold-header .school li {
+    margin-bottom: 4px;
+    color: #4b5563;
+}
+
+@media (max-width: 968px) {
+    .resume.bold-header .two-col-layout {
+        grid-template-columns: 1fr 300px;
+    }
+
+    .resume.bold-header .col-main {
+        padding: 40px 30px;
+    }
+
+    .resume.bold-header .col-side {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume.bold-header {
+        font-size: 12px;
+    }
+
+    .resume.bold-header .resume-header {
+        padding: 40px 30px 35px;
+    }
+
+    .resume.bold-header h1 {
+        font-size: 38px;
+    }
+
+    .resume.bold-header .subtitle {
+        font-size: 18px;
+    }
+
+    .resume.bold-header .resume-header .contact {
+        font-size: 12px;
+    }
+
+    .resume.bold-header .summary {
+        padding: 30px 30px;
+    }
+
+    .resume.bold-header .summary p {
+        font-size: 14px;
+    }
+
+    .resume.bold-header .two-col-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .resume.bold-header .col-main {
+        padding: 30px 30px;
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .resume.bold-header .col-side {
+        padding: 30px 30px;
+        background: white;
+    }
+
+    .resume.bold-header .job-header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .resume.bold-header .dates {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume.bold-header {
+        font-size: 11px;
+    }
+
+    .resume.bold-header .resume-header {
+        padding: 30px 20px 25px;
+    }
+
+    .resume.bold-header h1 {
+        font-size: 28px;
+    }
+
+    .resume.bold-header .subtitle {
+        font-size: 16px;
+    }
+
+    .resume.bold-header .summary {
+        padding: 20px 20px;
+    }
+
+    .resume.bold-header .summary p {
+        font-size: 13px;
+    }
+
+    .resume.bold-header .col-main,
+    .resume.bold-header .col-side {
+        padding: 20px;
+    }
+
+    .resume.bold-header h2 {
+        font-size: 16px;
+    }
+
+    .resume.bold-header h3 {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    .resume.bold-header {
+        box-shadow: none;
+    }
+    .resume.bold-header .resume-header {
+        background: #2563eb;
+    }
+}

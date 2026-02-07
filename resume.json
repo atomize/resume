@@ -1,0 +1,273 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Jonathan Berti",
+    "label": "Senior Full-Stack Engineer",
+    "image": "",
+    "email": "jonathan.berti@gmail.com",
+    "url": "https://berti.dev",
+    "summary": "Senior Full-Stack Engineer with 15+ years architecting enterprise healthcare platforms and 25+ years of Linux expertise. Specialized in legacy modernization—refactoring backends to modern frameworks, migrating monolithic frontends to React/Vue, and modernizing cloud infrastructure. Deep experience across the full stack with React, Vue.js, Node.js, Python, AWS, Azure, and modern DevOps automation on Linux systems.",
+    "location": {
+      "city": "Chicago",
+      "region": "IL",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "atomize",
+        "url": "https://github.com/atomize"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jonathanberti",
+        "url": "https://linkedin.com/in/jonathanberti"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CVS Health",
+      "position": "Senior Software Engineer",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "Leading modernization of legacy healthcare applications to cloud-native architecture.",
+      "highlights": [
+        "Refactoring legacy C# services to Python/FastAPI microservices",
+        "Migrating monolithic frontends to modern React applications",
+        "Modernizing deployment infrastructure and CI/CD pipelines (GitHub Actions)",
+        "Architecting cloud-native solutions for enterprise-scale healthcare platforms",
+        "Implementing AI-powered development workflows using MCP"
+      ]
+    },
+    {
+      "name": "Oak Street Health (CVS Health)",
+      "position": "Sr. Software Engineer II, Frontend",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2023-10",
+      "endDate": "2026-02",
+      "summary": "Built full-stack features for healthcare provider platform serving 200+ clinics nationwide.",
+      "highlights": [
+        "Developed responsive Vue.js/TypeScript applications for clinical workflows",
+        "Architected CI/CD pipelines using Azure DevOps for automated deployments",
+        "Implemented comprehensive unit testing and code review workflows",
+        "Pioneered AI-assisted development practices using Cursor AI and MCP"
+      ]
+    },
+    {
+      "name": "Digital Masterplanning",
+      "position": "Lead Developer (Full Stack)",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2021-02",
+      "endDate": "2022-12",
+      "summary": "Built 3D geospatial platform for real-estate visualization using Cesium and Vue.js.",
+      "highlights": [
+        "Provisioned AWS infrastructure (EC2, ECS, RDS, S3) with Terraform",
+        "Configured GitLab CI/CD pipelines for automated deployments",
+        "Designed multitenant Node.js/Express backend with PostGIS",
+        "Developed Vue.js plugin for Cesium 3D canvas integration",
+        "Implemented 3D tour feature with geospatial data visualization"
+      ]
+    },
+    {
+      "name": "Nomics",
+      "position": "Node.js/API Developer",
+      "location": "Remote/Contract",
+      "url": "",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Developed API integrations for institutional cryptocurrency data platform.",
+      "highlights": [
+        "Built TypeScript/Node.js adapters for 160+ cryptocurrency exchanges",
+        "Standardized market data ingestion across diverse exchange APIs",
+        "Documented API capabilities and metadata for all major exchanges"
+      ]
+    },
+    {
+      "name": "ProfitTrailer B.V.",
+      "position": "Frontend Developer",
+      "location": "Remote/Contract",
+      "url": "",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Built frontend for cryptocurrency trading bot used by thousands globally.",
+      "highlights": [
+        "Created comprehensive UI for configuring trading parameters",
+        "Refactored frontend codebase for Vue.js migration",
+        "Built settings converter tool with regex-based file transformation",
+        "Developed automated demo deployment system with GitHub webhooks"
+      ]
+    },
+    {
+      "name": "Azavar",
+      "position": "System Administration/Network Consultant",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2015",
+      "endDate": "2018",
+      "summary": "Provided systems administration and infrastructure consulting for growing SaaS company.",
+      "highlights": [
+        "Designed network and server infrastructure during company relocation",
+        "Configured secure AWS connections for on-premise resources",
+        "Provided emergency support for critical system failures"
+      ]
+    },
+    {
+      "name": "Sharprint Decorated Apparel",
+      "position": "Full-Stack Developer & System Administrator",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2012",
+      "endDate": "2020",
+      "summary": "Sole developer and systems administrator for apparel manufacturing company.",
+      "highlights": [
+        "Built 2-way API with Threadless for automated DTG fulfillment of thousands of orders",
+        "Integrated UPS/FedEx APIs for high-volume batch shipping label generation",
+        "Created PCI-compliant payment gateway with PayPal API and PDF receipts",
+        "Developed business intelligence portal using Google Apps Script",
+        "Automated vector art processing for specialized printing equipment",
+        "Virtualized database server with automated cloud backups (AWS/GCP)"
+      ]
+    },
+    {
+      "name": "Apollo Matrix",
+      "position": "Full-Stack Web/Mobile Developer",
+      "location": "Remote/McLean, VA",
+      "url": "",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Full-stack developer for mobile and web development startup.",
+      "highlights": [
+        "Led development of iPad app for Nikon CES 2012 showcase using PhoneGap",
+        "Built cross-platform mobile apps for iOS and Android",
+        "Created web application for generating custom iOS app templates",
+        "Automated Drupal deployments as headless CMS for mobile apps"
+      ]
+    },
+    {
+      "name": "Chicago Public Schools/affiliated NPOs",
+      "position": "Program Director & K-3 Educator",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2009",
+      "endDate": "2011",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Oregon State University",
+      "position": "Field Biologist",
+      "location": "Corvallis, OR/Sheldon NWR, NV",
+      "url": "",
+      "startDate": "2007",
+      "endDate": "2009",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Biological Psychology",
+      "studyType": "BSc",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Philosophy",
+      "studyType": "BA",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Classics",
+      "studyType": "Minor",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Expert",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "SASS"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "Node.js",
+        "Express",
+        "C#",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Terraform",
+        "GitHub Actions",
+        "Azure DevOps",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "name": "Data & Tools",
+      "level": "Expert",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Git",
+        "Linux",
+        "Nginx",
+        "Apache"
+      ]
+    },
+    {
+      "name": "AI-Powered Development",
+      "level": "Advanced",
+      "keywords": [
+        "Cursor AI",
+        "Model Context Protocol (MCP)"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://berti.dev/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-02-07"
+  }
+}

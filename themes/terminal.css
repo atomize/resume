@@ -1,0 +1,485 @@
+/* Terminal/Unix Console Theme - For the true Linux veteran */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+.resume.terminal {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #0a0a0a;
+    color: #00ff00;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 0;
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.3);
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Terminal window header */
+.resume.terminal::before {
+    content: '● ● ●   bash - 80x24';
+    display: block;
+    background: #1a1a1a;
+    border-bottom: 1px solid #00ff00;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.resume.terminal .resume-header {
+    padding: 40px 40px 30px;
+    border-bottom: 1px solid #00ff00;
+    background: #0d0d0d;
+}
+
+.resume.terminal .resume-header::before {
+    content: '$ whoami';
+    display: block;
+    color: #00ff00;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.resume.terminal h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #00ff00;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.resume.terminal .subtitle {
+    font-size: 16px;
+    color: #00cc00;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.resume.terminal .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: #009900;
+}
+
+.resume.terminal .contact span::before {
+    content: '> ';
+    color: #00ff00;
+}
+
+.resume.terminal section {
+    padding: 30px 40px;
+    border-bottom: 1px solid #003300;
+}
+
+.resume.terminal section:last-child {
+    border-bottom: none;
+}
+
+.resume.terminal h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00ff00;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.resume.terminal h2::before {
+    content: '# ';
+    color: #00ff00;
+    font-weight: 700;
+}
+
+.resume.terminal .summary {
+    background: #0d0d0d;
+}
+
+.resume.terminal .summary::before {
+    content: '$ cat ~/.profile  # About Me';
+    display: block;
+    color: #00ff00;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.resume.terminal .summary p {
+    margin: 0;
+    color: #00cc00;
+    line-height: 1.7;
+    padding-left: 20px;
+    position: relative;
+}
+
+.resume.terminal .summary p::before {
+    content: '│';
+    position: absolute;
+    left: 0;
+    color: #00ff00;
+}
+
+.resume.terminal .skills-grid {
+    display: grid;
+    gap: 16px;
+    background: #0d0d0d;
+    padding: 20px;
+    border: 1px solid #003300;
+    border-radius: 4px;
+}
+
+.resume.terminal .skill-item {
+    line-height: 1.6;
+    padding-left: 20px;
+    position: relative;
+}
+
+.resume.terminal .skill-item::before {
+    content: '├─';
+    position: absolute;
+    left: 0;
+    color: #00ff00;
+}
+
+.resume.terminal .skill-item:last-child::before {
+    content: '└─';
+}
+
+.resume.terminal .skill-item strong {
+    color: #ffff00;
+    font-weight: 700;
+}
+
+.resume.terminal .job {
+    margin-bottom: 32px;
+    padding: 20px;
+    background: #0d0d0d;
+    border: 1px solid #003300;
+    border-left: 3px solid #00ff00;
+    border-radius: 4px;
+    position: relative;
+}
+
+.resume.terminal .job::before {
+    content: '>';
+    position: absolute;
+    left: -12px;
+    top: 20px;
+    color: #00ff00;
+    font-weight: 700;
+}
+
+.resume.terminal .job-header {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.resume.terminal h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffff00;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.3;
+    display: inline;
+}
+
+.resume.terminal h3::before {
+    content: '$';
+    position: absolute;
+    left: 0;
+    color: #00ff00;
+}
+
+.resume.terminal .company {
+    font-size: 13px;
+    color: #00ffff;
+    font-weight: 500;
+    padding-left: 20px;
+    display: block;
+    margin-top: 4px;
+}
+
+.resume.terminal .dates {
+    font-size: 11px;
+    color: #888;
+    white-space: nowrap;
+    font-weight: 600;
+    background: #1a1a1a;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid #003300;
+    line-height: 1.2;
+    display: inline-block;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.resume.terminal .job-summary {
+    margin: 12px 0;
+    color: #00cc00;
+    font-style: italic;
+    padding-left: 20px;
+    border-left: 2px solid #003300;
+}
+
+.resume.terminal .highlights {
+    margin: 12px 0 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.resume.terminal .highlights li {
+    margin-bottom: 8px;
+    color: #00cc00;
+    padding-left: 40px;
+    position: relative;
+}
+
+.resume.terminal .highlights li::before {
+    content: '└──>';
+    position: absolute;
+    left: 0;
+    color: #00ff00;
+    font-weight: 500;
+}
+
+.resume.terminal .school {
+    margin-bottom: 24px;
+    padding: 16px;
+    background: #0d0d0d;
+    border: 1px solid #003300;
+    border-radius: 4px;
+}
+
+.resume.terminal .school h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ffff00;
+}
+
+.resume.terminal .school .dates {
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.resume.terminal .school ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.resume.terminal .school li {
+    margin-bottom: 6px;
+    color: #00cc00;
+    padding-left: 20px;
+    position: relative;
+}
+
+.resume.terminal .school li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: #00ff00;
+}
+
+.resume.terminal .school li strong {
+    color: #ffff00;
+}
+
+/* Terminal cursor animation */
+.resume.terminal::after {
+    content: '';
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 8px;
+    height: 16px;
+    background: #00ff00;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* Scrollbar styling */
+.resume.terminal::-webkit-scrollbar {
+    width: 12px;
+}
+
+.resume.terminal::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+.resume.terminal::-webkit-scrollbar-thumb {
+    background: #00ff00;
+    border-radius: 6px;
+}
+
+.resume.terminal::-webkit-scrollbar-thumb:hover {
+    background: #00cc00;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .resume.terminal {
+        font-size: 12px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .resume.terminal::before {
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .resume.terminal .resume-header {
+        padding: 30px 20px 20px;
+    }
+
+    .resume.terminal h1 {
+        font-size: 22px;
+        letter-spacing: 0.05em;
+    }
+
+    .resume.terminal .subtitle {
+        font-size: 14px;
+    }
+
+    .resume.terminal .contact {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    .resume.terminal section {
+        padding: 20px 20px;
+    }
+
+    .resume.terminal h2 {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .resume.terminal .skills-grid {
+        padding: 16px;
+    }
+
+    .resume.terminal .job {
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+
+    .resume.terminal h3 {
+        font-size: 14px;
+        line-height: 1.2;
+        display: block;
+    }
+
+    .resume.terminal .dates {
+        font-size: 10px;
+        padding: 2px 6px;
+        display: block;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+
+    .resume.terminal .company {
+        font-size: 12px;
+    }
+
+    .resume.terminal .highlights li {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+
+    .resume.terminal::after {
+        right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume.terminal {
+        font-size: 11px;
+    }
+
+    .resume.terminal h1 {
+        font-size: 18px;
+    }
+
+    .resume.terminal .subtitle {
+        font-size: 12px;
+    }
+
+    .resume.terminal .resume-header {
+        padding: 20px 16px 16px;
+    }
+
+    .resume.terminal section {
+        padding: 16px;
+    }
+
+    .resume.terminal .job {
+        padding: 12px;
+    }
+
+    .resume.terminal h3 {
+        font-size: 13px;
+    }
+
+    .resume.terminal .dates {
+        font-size: 9px;
+        padding: 2px 5px;
+    }
+
+    .resume.terminal .highlights li {
+        padding-left: 24px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .resume.terminal {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+    
+    .resume.terminal::before,
+    .resume.terminal::after {
+        display: none;
+    }
+}
+
+/* Amber variant (commented out - uncomment to use classic amber terminal look) */
+/*
+.resume.terminal {
+    color: #ff9900;
+    box-shadow: 0 0 40px rgba(255, 153, 0, 0.3);
+    border-color: #ff9900;
+}
+.resume.terminal h1,
+.resume.terminal h2::before,
+.resume.terminal h3::before,
+.resume.terminal .highlights li::before,
+.resume.terminal .skill-item::before {
+    color: #ff9900;
+}
+*/
+
+/* Blue vintage terminal variant (commented out) */
+/*
+.resume.terminal {
+    background: #001e3c;
+    color: #00bfff;
+    box-shadow: 0 0 40px rgba(0, 191, 255, 0.3);
+    border-color: #00bfff;
+}
+*/

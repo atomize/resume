@@ -1,0 +1,287 @@
+/* Man Page Theme - Like running 'man jonathan-berti' */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+.resume.manpage {
+    max-width: 90ch;
+    margin: 0 auto;
+    padding: 3em 5em;
+    background: #fefefe;
+    color: #000;
+    font-family: 'Courier Prime', 'Courier New', monospace;
+    font-size: 15px;
+    line-height: 1.7;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+/* Man page header */
+.resume.manpage::before {
+    content: 'JONATHAN-BERTI(1)          User Commands          JONATHAN-BERTI(1)';
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #000;
+}
+
+/* Man page footer */
+.resume.manpage::after {
+    content: 'berti.dev                 February 2026           JONATHAN-BERTI(1)';
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #000;
+}
+
+.resume.manpage .resume-header {
+    margin-bottom: 2em;
+}
+
+/* Section headings - always uppercase and bold */
+.resume.manpage h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2em 0 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+/* NAME section styling */
+.resume.manpage .name-section {
+    margin-bottom: 2em;
+}
+
+.resume.manpage .name-section .name {
+    font-weight: 700;
+    display: inline;
+}
+
+.resume.manpage .name-section .dash {
+    display: inline;
+}
+
+.resume.manpage .name-section .label {
+    display: inline;
+}
+
+/* SYNOPSIS section */
+.resume.manpage .synopsis {
+    margin: 1em 0 1em 7ch;
+    font-weight: 700;
+}
+
+/* DESCRIPTION and other body text */
+.resume.manpage .summary p {
+    margin: 0 0 1em 7ch;
+    text-align: justify;
+}
+
+/* Contact info as indented list */
+.resume.manpage .contact-list {
+    margin: 0 0 0 7ch;
+    padding: 0;
+    list-style: none;
+}
+
+.resume.manpage .contact-list li {
+    margin-bottom: 0.5em;
+}
+
+.resume.manpage .contact-list .label {
+    font-weight: 700;
+    display: inline-block;
+    width: 12ch;
+}
+
+/* Skills as definition list */
+.resume.manpage .skills-list {
+    margin: 0 0 0 7ch;
+}
+
+.resume.manpage .skill-item {
+    margin-bottom: 0.8em;
+}
+
+.resume.manpage .skill-item dt {
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.resume.manpage .skill-item dd {
+    margin-left: 7ch;
+    margin-bottom: 0;
+}
+
+/* Job entries */
+.resume.manpage .job {
+    margin-bottom: 2em;
+}
+
+.resume.manpage .job-header {
+    margin-bottom: 0.5em;
+}
+
+.resume.manpage .job-title {
+    font-weight: 700;
+    margin: 0 0 0 7ch;
+}
+
+.resume.manpage .job-meta {
+    margin: 0 0 0.5em 14ch;
+    font-style: italic;
+}
+
+.resume.manpage .job-summary {
+    margin: 0.5em 0 0.5em 14ch;
+}
+
+.resume.manpage .highlights {
+    margin: 0 0 0 14ch;
+    padding-left: 3ch;
+    list-style: none;
+}
+
+.resume.manpage .highlights li {
+    margin-bottom: 0.3em;
+    position: relative;
+}
+
+.resume.manpage .highlights li::before {
+    content: '·';
+    position: absolute;
+    left: -2ch;
+    font-weight: 700;
+}
+
+/* Education */
+.resume.manpage .school {
+    margin: 0 0 1em 7ch;
+}
+
+.resume.manpage .school-name {
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.resume.manpage .school-meta {
+    margin-left: 7ch;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.resume.manpage .degrees {
+    margin: 0 0 0 7ch;
+    padding: 0;
+    list-style: none;
+}
+
+.resume.manpage .degrees li {
+    margin-bottom: 0.2em;
+}
+
+.resume.manpage .degree-type {
+    font-weight: 700;
+}
+
+/* Responsive - Large screens get even bigger */
+@media (min-width: 1400px) {
+    .resume.manpage {
+        font-size: 16px;
+        padding: 3.5em 6em;
+        max-width: 95ch;
+    }
+
+    .resume.manpage::before,
+    .resume.manpage::after {
+        font-size: 16px;
+    }
+
+    .resume.manpage h2 {
+        font-size: 16px;
+    }
+}
+
+/* Tablet - slightly smaller but still readable */
+@media (max-width: 768px) {
+    .resume.manpage {
+        padding: 2em 3em;
+        font-size: 13px;
+        max-width: 85ch;
+    }
+
+    .resume.manpage::before,
+    .resume.manpage::after {
+        font-size: 13px;
+    }
+
+    .resume.manpage h2 {
+        font-size: 13px;
+    }
+
+    .resume.manpage .summary p,
+    .resume.manpage .contact-list,
+    .resume.manpage .skills-list,
+    .resume.manpage .job-title {
+        margin-left: 5ch;
+    }
+
+    .resume.manpage .job-meta,
+    .resume.manpage .job-summary,
+    .resume.manpage .highlights {
+        margin-left: 10ch;
+    }
+
+    .resume.manpage .skill-item dd {
+        margin-left: 5ch;
+    }
+}
+
+/* Mobile - compact but still readable */
+@media (max-width: 480px) {
+    .resume.manpage {
+        padding: 1.5em 1.5em;
+        font-size: 11px;
+    }
+
+    .resume.manpage::before,
+    .resume.manpage::after {
+        font-size: 10px;
+        word-wrap: break-word;
+    }
+
+    .resume.manpage h2 {
+        font-size: 11px;
+    }
+
+    .resume.manpage .summary p,
+    .resume.manpage .contact-list,
+    .resume.manpage .skills-list,
+    .resume.manpage .job-title {
+        margin-left: 3ch;
+    }
+
+    .resume.manpage .job-meta,
+    .resume.manpage .job-summary,
+    .resume.manpage .highlights {
+        margin-left: 6ch;
+    }
+
+    .resume.manpage .skill-item dd {
+        margin-left: 3ch;
+    }
+
+    .resume.manpage .highlights {
+        padding-left: 2ch;
+    }
+}
+
+@media print {
+    .resume.manpage {
+        box-shadow: none;
+    }
+}
