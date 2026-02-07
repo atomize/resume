@@ -260,8 +260,13 @@
       "name": "AI-Powered Development",
       "level": "Advanced",
       "keywords": [
+        "Claude Code",
         "Cursor AI",
-        "Model Context Protocol (MCP)"
+        "Model Context Protocol (MCP)",
+        "AI Rules & Skills",
+        "AI Agents",
+        "Ollama",
+        "Local LLM Development"
       ]
     }
   ],
