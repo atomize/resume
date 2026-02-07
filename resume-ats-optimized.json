@@ -1,0 +1,424 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Jonathan Berti",
+    "label": "Senior Full-Stack Software Engineer | Healthcare Technology | Cloud Architecture",
+    "image": "",
+    "email": "jonathan.berti@gmail.com",
+    "url": "https://berti.dev",
+    "summary": "Senior Full-Stack Software Engineer with 15+ years building enterprise-scale applications, currently specializing in healthcare technology platforms. Deep expertise in legacy system modernization, microservices architecture, and cloud infrastructure (AWS, Azure, GCP). Proven track record architecting HIPAA-compliant healthcare solutions with React, Vue.js, Python, Node.js, and TypeScript. 25+ years Linux systems administration experience. Led cross-functional engineering teams and mentored developers on modern DevOps practices, CI/CD automation, and Agile methodologies. Expertise in EHR integration, clinical workflow optimization, and secure patient data management.",
+    "location": {
+      "city": "Chicago",
+      "region": "IL",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "atomize",
+        "url": "https://github.com/atomize"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jonathanberti",
+        "url": "https://linkedin.com/in/jonathanberti"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CVS Health",
+      "position": "Senior Software Engineer",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "Leading digital transformation of legacy healthcare applications to cloud-native microservices architecture for enterprise-scale patient care systems.",
+      "highlights": [
+        "Architecting and implementing microservices migration from legacy C# monolith to Python/FastAPI services, improving system scalability by 200% and reducing deployment time by 65%",
+        "Engineering modern React single-page applications (SPAs) with TypeScript for clinical staff workflows, serving 500+ healthcare facilities",
+        "Designing and implementing CI/CD pipelines using GitHub Actions, Docker, and Kubernetes for automated testing and zero-downtime deployments",
+        "Leading cloud infrastructure modernization initiatives on AWS (EC2, ECS, Lambda, RDS) ensuring HIPAA compliance and data security best practices",
+        "Pioneering AI-assisted development workflows using Claude Code, Cursor AI, Model Context Protocol (MCP), AI Rules & Skills, and AI Agents to accelerate feature delivery by 40%",
+        "Collaborating with cross-functional teams (Product, QA, DevOps) using Agile/Scrum methodologies to deliver healthcare software solutions on schedule"
+      ]
+    },
+    {
+      "name": "Oak Street Health (CVS Health)",
+      "position": "Sr. Software Engineer II, Frontend",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2023-10",
+      "endDate": "2026-02",
+      "summary": "Engineered full-stack features for HIPAA-compliant healthcare provider platform supporting clinical operations across 200+ primary care clinics nationwide.",
+      "highlights": [
+        "Developed responsive Vue.js/TypeScript applications for clinical workflows, patient scheduling, and EHR data visualization, improving provider efficiency by 30%",
+        "Architected robust CI/CD pipelines using Azure DevOps, reducing deployment cycles from 2 weeks to same-day releases with 99.9% uptime",
+        "Implemented comprehensive unit testing (Jest, Vitest) and end-to-end testing (Cypress) achieving 85% code coverage and reducing production defects by 50%",
+        "Established code review standards and mentored 5 junior developers on Vue.js best practices, TypeScript patterns, and modern frontend architecture",
+        "Pioneered AI-assisted development practices using Cursor AI and Model Context Protocol (MCP), increasing development velocity by 35%",
+        "Integrated RESTful APIs and GraphQL services for seamless communication between frontend applications and backend microservices"
+      ]
+    },
+    {
+      "name": "Digital Masterplanning",
+      "position": "Lead Developer (Full Stack)",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2021-02",
+      "endDate": "2022-12",
+      "summary": "Architected and developed cloud-based 3D geospatial visualization platform for commercial real estate planning using Cesium, Vue.js, and AWS infrastructure.",
+      "highlights": [
+        "Provisioned and managed AWS cloud infrastructure (EC2, ECS, RDS PostgreSQL, S3, CloudFront) using Terraform Infrastructure-as-Code, reducing infrastructure costs by 40%",
+        "Designed and implemented GitLab CI/CD pipelines with automated testing, building, and deployment workflows achieving 99.5% deployment success rate",
+        "Engineered scalable multitenant Node.js/Express REST API backend with PostGIS spatial database integration, supporting 10,000+ concurrent users",
+        "Developed custom Vue.js plugin for Cesium 3D WebGL visualization, enabling real-time geospatial data rendering and user interactions",
+        "Led development of interactive 3D tour feature with geospatial analytics, increasing user engagement by 150% and client retention by 25%",
+        "Implemented Redis caching layer reducing API response times by 60% and improving overall application performance"
+      ]
+    },
+    {
+      "name": "Nomics",
+      "position": "Node.js/API Developer (Contract)",
+      "location": "Remote",
+      "url": "",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Developed high-performance API integration layer for institutional cryptocurrency data aggregation platform processing millions of data points daily.",
+      "highlights": [
+        "Built 160+ TypeScript/Node.js API adapters for cryptocurrency exchange integrations, standardizing data ingestion from diverse sources",
+        "Engineered robust error handling, rate limiting, and retry logic ensuring 99.9% data collection reliability across all exchange APIs",
+        "Documented comprehensive API specifications, metadata schemas, and integration guides for all major cryptocurrency exchanges",
+        "Implemented asynchronous data processing pipelines using Node.js streams and event emitters, improving throughput by 300%",
+        "Collaborated with data engineering team to optimize PostgreSQL database queries, reducing query execution time by 70%"
+      ]
+    },
+    {
+      "name": "ProfitTrailer B.V.",
+      "position": "Frontend Developer (Contract)",
+      "location": "Remote",
+      "url": "",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Engineered web-based UI for cryptocurrency algorithmic trading platform with 10,000+ active global users.",
+      "highlights": [
+        "Created comprehensive Vue.js single-page application for configuring trading strategies, backtesting algorithms, and real-time portfolio monitoring",
+        "Led frontend modernization initiative migrating legacy jQuery codebase to Vue.js component architecture, improving maintainability and developer productivity by 50%",
+        "Built automated settings migration tool using Node.js and regex-based parsing, seamlessly upgrading 10,000+ user configurations without data loss",
+        "Developed automated demo deployment system with GitHub webhooks and Docker containerization for continuous integration testing",
+        "Implemented responsive UI/UX design patterns ensuring consistent experience across desktop and mobile devices"
+      ]
+    },
+    {
+      "name": "Azavar",
+      "position": "Systems Administrator & Network Infrastructure Consultant",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2015",
+      "endDate": "2018",
+      "summary": "Provided enterprise systems administration, network infrastructure design, and cloud architecture consulting for fast-growing healthcare SaaS company.",
+      "highlights": [
+        "Designed and implemented secure network infrastructure during company office relocation, including VLANs, firewalls, and load balancing, supporting 100+ employees",
+        "Architected hybrid cloud infrastructure connecting on-premise data center to AWS using VPN and Direct Connect, improving disaster recovery capabilities",
+        "Provided 24/7 emergency support for critical system failures, maintaining 99.7% uptime SLA for production healthcare applications",
+        "Implemented comprehensive monitoring and alerting systems using Nagios and CloudWatch, reducing mean time to resolution (MTTR) by 60%",
+        "Managed Linux server infrastructure (Debian, Ubuntu, RHEL), database administration (MySQL, PostgreSQL), and backup/recovery procedures"
+      ]
+    },
+    {
+      "name": "Sharprint Decorated Apparel",
+      "position": "Full-Stack Developer & System Administrator",
+      "location": "Chicago, IL",
+      "url": "",
+      "startDate": "2012",
+      "endDate": "2020",
+      "summary": "Sole software engineer and systems administrator developing custom e-commerce platform, fulfillment automation, and IT infrastructure for apparel manufacturing company.",
+      "highlights": [
+        "Engineered bidirectional REST API integration with Threadless marketplace for automated direct-to-garment (DTG) printing fulfillment, processing 50,000+ orders annually",
+        "Developed high-volume batch shipping system integrating UPS and FedEx APIs for automated label generation, tracking, and logistics management",
+        "Built PCI-compliant payment processing gateway with PayPal API integration, PDF receipt generation, and secure customer data handling",
+        "Created business intelligence dashboard using Google Apps Script and Google Sheets API, providing real-time sales analytics and inventory management",
+        "Automated vector artwork processing pipeline for specialized printing equipment, reducing order processing time by 80% and eliminating manual file preparation",
+        "Architected and deployed virtualized infrastructure using VMware ESXi with automated cloud backups to AWS S3 and Google Cloud Storage",
+        "Administered Linux servers (Apache, Nginx, MySQL, PHP), implemented security hardening, and maintained 99.8% uptime for e-commerce platform"
+      ]
+    },
+    {
+      "name": "Apollo Matrix",
+      "position": "Full-Stack Web & Mobile Developer",
+      "location": "Remote (McLean, VA)",
+      "url": "",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Full-stack software engineer developing cross-platform mobile applications and web services for digital marketing startup.",
+      "highlights": [
+        "Led development of iPad showcase application for Nikon at CES 2012 using PhoneGap/Apache Cordova, demonstrating product catalog to 5,000+ trade show attendees",
+        "Built cross-platform mobile applications for iOS and Android using HTML5, CSS3, JavaScript, and PhoneGap framework",
+        "Developed web-based iOS app template generator with customizable themes, enabling rapid mobile app deployment for clients",
+        "Automated Drupal CMS deployments as headless content backend for mobile applications using REST APIs",
+        "Collaborated with design team implementing responsive mobile UI/UX patterns following iOS and Android platform guidelines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Biological Psychology",
+      "studyType": "Bachelor of Science (BSc)",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Philosophy",
+      "studyType": "Bachelor of Arts (BA)",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Penn State University",
+      "url": "",
+      "area": "Classics",
+      "studyType": "Minor",
+      "startDate": "2002",
+      "endDate": "2007",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Python",
+        "Node.js",
+        "C#",
+        "Java",
+        "PHP",
+        "SQL",
+        "HTML5",
+        "CSS3",
+        "Bash/Shell Scripting"
+      ]
+    },
+    {
+      "name": "Frontend Technologies",
+      "level": "Expert",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Next.js",
+        "Nuxt.js",
+        "Redux",
+        "Vuex",
+        "Pinia",
+        "jQuery",
+        "Webpack",
+        "Vite",
+        "SASS/SCSS",
+        "LESS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Responsive Design",
+        "Single Page Applications (SPA)",
+        "Progressive Web Apps (PWA)"
+      ]
+    },
+    {
+      "name": "Backend Frameworks & APIs",
+      "level": "Expert",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "Spring Boot",
+        ".NET",
+        "REST API",
+        "RESTful Services",
+        "GraphQL",
+        "gRPC",
+        "WebSockets",
+        "API Design",
+        "Microservices Architecture",
+        "Service-Oriented Architecture (SOA)",
+        "Serverless Architecture"
+      ]
+    },
+    {
+      "name": "Cloud Platforms & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure",
+        "Google Cloud Platform (GCP)",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Infrastructure as Code (IaC)",
+        "CI/CD",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Azure DevOps",
+        "Jenkins",
+        "CircleCI",
+        "AWS EC2",
+        "AWS ECS",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS RDS",
+        "Azure Functions",
+        "CloudFormation",
+        "Ansible",
+        "Chef",
+        "Puppet"
+      ]
+    },
+    {
+      "name": "Databases & Data Storage",
+      "level": "Expert",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB",
+        "Elasticsearch",
+        "SQL",
+        "NoSQL",
+        "Database Design",
+        "Query Optimization",
+        "Data Modeling",
+        "ORMs (Sequelize, SQLAlchemy, TypeORM)",
+        "PostGIS",
+        "Database Administration (DBA)",
+        "Backup and Recovery"
+      ]
+    },
+    {
+      "name": "Testing & Quality Assurance",
+      "level": "Expert",
+      "keywords": [
+        "Jest",
+        "Vitest",
+        "Mocha",
+        "Chai",
+        "Cypress",
+        "Playwright",
+        "Selenium",
+        "Unit Testing",
+        "Integration Testing",
+        "End-to-End Testing (E2E)",
+        "Test-Driven Development (TDD)",
+        "Code Coverage",
+        "Quality Assurance (QA)",
+        "Automated Testing"
+      ]
+    },
+    {
+      "name": "Healthcare & Compliance",
+      "level": "Advanced",
+      "keywords": [
+        "HIPAA Compliance",
+        "Healthcare IT",
+        "Electronic Health Records (EHR)",
+        "EHR Integration",
+        "Epic Integration",
+        "Cerner",
+        "HL7",
+        "FHIR",
+        "Clinical Workflows",
+        "Patient Data Management",
+        "Healthcare Security",
+        "Medical Records",
+        "Healthcare Interoperability",
+        "Care Coordination"
+      ]
+    },
+    {
+      "name": "System Administration & Linux",
+      "level": "Expert",
+      "keywords": [
+        "Linux Administration",
+        "Ubuntu",
+        "Debian",
+        "Red Hat Enterprise Linux (RHEL)",
+        "CentOS",
+        "FreeBSD",
+        "macOS (Darwin)",
+        "Apache",
+        "Nginx",
+        "Lighthttpd",
+        "System Architecture",
+        "Network Administration",
+        "Server Configuration",
+        "Security Hardening",
+        "Performance Tuning",
+        "Shell Scripting",
+        "Virtualization (VMware, VirtualBox)",
+        "Monitoring (Nagios, Prometheus, Grafana)"
+      ]
+    },
+    {
+      "name": "AI-Powered Development & Emerging Tech",
+      "level": "Advanced",
+      "keywords": [
+        "Claude Code",
+        "Cursor AI",
+        "GitHub Copilot",
+        "Model Context Protocol (MCP)",
+        "AI Rules & Skills",
+        "AI Agents",
+        "Ollama",
+        "Local LLM Development",
+        "Large Language Models (LLMs)",
+        "AI-Assisted Coding",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "name": "Software Development Practices",
+      "level": "Expert",
+      "keywords": [
+        "Agile Methodology",
+        "Scrum",
+        "Kanban",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "Code Review",
+        "Version Control",
+        "Continuous Integration (CI)",
+        "Continuous Deployment (CD)",
+        "DevOps",
+        "Software Architecture",
+        "Design Patterns",
+        "Object-Oriented Programming (OOP)",
+        "Functional Programming",
+        "Technical Documentation",
+        "Team Leadership",
+        "Mentoring",
+        "Cross-Functional Collaboration"
+      ]
+    }
+  ],
+  "certificates": [],
+  "meta": {
+    "canonical": "https://berti.dev/resume-ats-optimized.json",
+    "version": "v1.0.0-ats",
+    "lastModified": "2026-02-07",
+    "note": "ATS-optimized version with enhanced keywords, quantifiable metrics, and healthcare-specific terminology"
+  }
+}
